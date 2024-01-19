@@ -24,6 +24,15 @@
   color: white;
 }
 
+.svg svg rect {
+	 fill: orange;
+}
+.svg svg text {
+	 fill: white;
+	 font: 10px sans-serif;
+	 text-anchor: end;
+}
+ 
 .App-link {
   color: #61dafb;
 }
