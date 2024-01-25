@@ -557,12 +557,18 @@ const Charts = () => {
                 <p>
                     The vertical red lines represent major events that happened.
                     In order, they are:
-                    <ul>
-                        <li> <em>10 March 2023 </em>- Start of Traditional banking System Failures (ex: Silvergate underwent voluntary liquidation)</li>
-                        <li> <em>15 April 2023</em> - End of Traditional Banking System Failures</li>
-                        <li> <em>14 December 2023</em> - new FASB Accounting Rules for Bitcoin</li>
-                        <li> <em>10 January 2024</em> - Chair of SEC Announces formal approval of Bitcoin ETF</li>
-                    </ul>
+                    <p>
+                        <em>10 March 2023 </em>- Start of Traditional banking System Failures (ex: Silvergate underwent voluntary liquidation)
+                    </p>
+                    <p>
+                        <em>15 April 2023</em> - End of Traditional Banking System Failures
+                    </p>
+                    <p>
+                        <em>14 December 2023</em> - new FASB Accounting Rules for Bitcoin
+                    </p>
+                    <p>
+                        <em>10 January 2024</em> - Chair of SEC Announces formal approval of Bitcoin ETF
+                    </p>
                 </p>
                 <br></br>
                 <div className=".candleChart" ref={refCandle}> </div>
